@@ -1,14 +1,14 @@
-import { MdOutlineDeleteForever } from "react-icons/md";
+import {MdOutlineDeleteForever} from "react-icons/md";
 
-const Note = () => {
-    return(
-    <div className="note">
-        <span>Hello this is  our first note</span>
-        <div className="note-footer">
-            <span>13/05/2022</span>
-            <MdOutlineDeleteForever className={'delete-icon'} size={'1.3em'} />
+const Note = ({id, text, date}) => {
+    return (
+        <div className="note" key={id}>
+            <span>{text}</span>
+            <div className="note-footer">
+                <span>{date}</span>
+                <MdOutlineDeleteForever className={'delete-icon'} size={'1.3em'}/>
+            </div>
         </div>
-    </div>
     )
 }
 
