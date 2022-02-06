@@ -94,10 +94,12 @@ textarea:focus {
 .search input {
     border: none;
     background-color: #e3e3e3;
+    width: 100%;
 }
 
 .search input:focus {
     outline: none;
+
 }
 
 

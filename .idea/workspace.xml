@@ -7,6 +7,7 @@
     <list default="true" id="5787e420-3e5d-4c34-a1d4-98cdc4f90820" name="Changes" comment="create the basic structure of notes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddNote.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddNote.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644091925263</updated>
       <workItem from="1644091931737" duration="3516000" />
-      <workItem from="1644095870121" duration="10345000" />
+      <workItem from="1644095870121" duration="12787000" />
     </task>
     <servers />
   </component>

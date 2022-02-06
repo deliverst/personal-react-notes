@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 
 const AddNote = ({handleAddNote, }) => {
     const [noteText, setNoteText] = useState('');
@@ -10,10 +10,11 @@ const AddNote = ({handleAddNote, }) => {
 
     }
 
-    const handleSaveClick = () => {
+    const handleSaveClick = (e) => {
         if (noteText.trim().length > 0) {
             handleAddNote(noteText)
             setNoteText('')
+            console.log(e.key)
         }
     }
 
@@ -21,7 +22,17 @@ const AddNote = ({handleAddNote, }) => {
     //     setCounter(e.target.value)
     //     console.log(e.target.value.length)
     // }
-    
+
+    // useEffect(() => {
+    //     document.addEventListener('keydown', (e) => {
+    //         e.preventDefault();
+    //         if ((e.metaKey) && e.code === 'Enter') {
+    //             console.log('fire!')
+    //             handleSaveClick()
+    //         }
+    //     })
+    // },[])
+
 
     return (
         <div className={"note new"}>

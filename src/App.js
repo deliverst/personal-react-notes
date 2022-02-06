@@ -26,18 +26,6 @@ const App = () => {
     const [searchText, setSearchText] = useState('')
     const [darkeMode, setDarkeMode] = useState(false)
 
-    useEffect(() => {
-        const savedNotes = JSON.parse(localStorage.getItem('react-note-app-data'))
-        if (savedNotes) {
-            setNotes(savedNotes)
-        }
-    }, []);
-
-    useEffect(() => {
-        localStorage.setItem('react-note-app-data', JSON.stringify(notes)
-        )
-    }, [notes]);
-
     const addNote = (text) => {
         const date = new Date();
         const newNote = {
@@ -54,6 +42,20 @@ const App = () => {
         setNotes(newNotes)
     }
 
+    useEffect(() => {
+            const savedNotes = JSON.parse(localStorage.getItem('react-note-app-data'))
+            console.log(savedNotes)
+            if (savedNotes) {
+                setNotes(savedNotes)
+            }
+        }, []);
+
+        useEffect(() => {
+            localStorage.setItem('react-note-app-data', JSON.stringify(notes)
+            )
+        }, [notes]);
+
+
     return (
         <div className={`${darkeMode && 'dark-mode'}`}>
             <div className="container">
@@ -66,6 +68,8 @@ const App = () => {
                 />
             </div>
         </div>
+
+        
     );
 };
 
