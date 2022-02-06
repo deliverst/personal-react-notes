@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5787e420-3e5d-4c34-a1d4-98cdc4f90820" name="Changes" comment="create the basic structure of notes">
-      <change afterPath="$PROJECT_DIR$/src/components/AddNote.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Note.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Note.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NotesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NotesList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644091925263</updated>
       <workItem from="1644091931737" duration="3516000" />
-      <workItem from="1644095870121" duration="7976000" />
+      <workItem from="1644095870121" duration="9218000" />
     </task>
     <servers />
   </component>
@@ -96,5 +93,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create the basic structure of notes" />
     <option name="LAST_COMMIT_MESSAGE" value="create the basic structure of notes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Search.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
